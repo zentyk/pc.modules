@@ -1,0 +1,13 @@
+{
+  "name": "pc.module",
+  "description": "playcanvas module load example",
+  "devDependencies": {
+    "esbuild": "^0.11.14"
+  },
+  "scripts": {
+    "build-dev": "./node_modules/.bin/esbuild ./src/module.js --bundle --sourcemap --target=es2015 --outfile=./dist/dev/module.js --format=esm",
+    "build-prod": "./node_modules/.bin/esbuild ./src/module.js --bundle --minify --target=es2015 --outfile=./dist/prod/module.min.js --format=esm"
+  },
+  "author": "gamedev.js",
+  "license": "ISC"
+}
