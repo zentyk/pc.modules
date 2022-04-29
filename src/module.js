@@ -5,7 +5,7 @@ export default class Nakama {
         console.log("module loaded");
     }
 
-    Greet = () => {
+    Greet = function () {
         console.log("Hello "+ this.greeting + "!");
     }
 }

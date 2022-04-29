@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/module.js"],
+  "sourcesContent": ["export default class Nakama {\r\n    constructor(greeting) {\r\n        this.greeting = greeting;\r\n        \r\n        console.log(\"module loaded\");\r\n    }\r\n\r\n    Greet = function () {\r\n        console.log(\"Hello \"+ this.greeting + \"!\");\r\n    }\r\n}"],
+  "mappings": ";;;;;;;;AAAA,mBAA4B;AAAA,EACxB,YAAY,UAAU;AAMtB,iCAAQ,WAAY;AAChB,cAAQ,IAAI,WAAU,KAAK,WAAW;AAAA;AANtC,SAAK,WAAW;AAEhB,YAAQ,IAAI;AAAA;AAAA;AAJpB,IAAO,iBAAP;",
+  "names": []
+}
